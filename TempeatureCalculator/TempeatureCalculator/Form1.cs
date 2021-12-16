@@ -46,5 +46,11 @@ namespace TempeatureCalculator
             double c = (f - 32) * 5/9;
             textBoxC.Text = c.ToString();
         }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            textBoxC.Text = "";
+            textBoxF.Text = "";
+        }
     }
 }

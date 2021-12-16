@@ -34,6 +34,7 @@
             this.textBoxC = new System.Windows.Forms.TextBox();
             this.buttonConvertC = new System.Windows.Forms.Button();
             this.ConvertF = new System.Windows.Forms.Button();
+            this.buttonClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -48,7 +49,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(169, 88);
+            this.label4.Location = new System.Drawing.Point(171, 76);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(13, 15);
             this.label4.TabIndex = 12;
@@ -56,7 +57,7 @@
             // 
             // textBoxF
             // 
-            this.textBoxF.Location = new System.Drawing.Point(23, 85);
+            this.textBoxF.Location = new System.Drawing.Point(23, 68);
             this.textBoxF.Name = "textBoxF";
             this.textBoxF.Size = new System.Drawing.Size(140, 23);
             this.textBoxF.TabIndex = 10;
@@ -81,7 +82,7 @@
             // 
             // ConvertF
             // 
-            this.ConvertF.Location = new System.Drawing.Point(212, 85);
+            this.ConvertF.Location = new System.Drawing.Point(212, 72);
             this.ConvertF.Name = "ConvertF";
             this.ConvertF.Size = new System.Drawing.Size(91, 23);
             this.ConvertF.TabIndex = 13;
@@ -89,11 +90,22 @@
             this.ConvertF.UseVisualStyleBackColor = true;
             this.ConvertF.Click += new System.EventHandler(this.ConvertF_Click);
             // 
+            // buttonClear
+            // 
+            this.buttonClear.Location = new System.Drawing.Point(309, 38);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(95, 57);
+            this.buttonClear.TabIndex = 14;
+            this.buttonClear.Text = "Clear";
+            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(315, 141);
+            this.ClientSize = new System.Drawing.Size(422, 127);
+            this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.ConvertF);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
@@ -115,5 +127,6 @@
         private TextBox textBoxC;
         private Button buttonConvertC;
         private Button ConvertF;
+        private Button buttonClear;
     }
 }
