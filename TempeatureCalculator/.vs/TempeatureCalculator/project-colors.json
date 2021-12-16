@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "90dd9a2b-a188-485e-99c5-1771a71aa3e0": {
+      "ProjectGuid": "90dd9a2b-a188-485e-99c5-1771a71aa3e0",
+      "DisplayName": "TempeatureCalculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
